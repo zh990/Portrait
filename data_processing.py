@@ -13,8 +13,8 @@ matplotlib.rcParams.update({'font.size': 16})
 plt.style.use('ggplot')
 time_end = datetime(2018, 1, 3)
 
-df_cum = pd.read_excel('./cum.xlsx')[:1000]
-df_sale = pd.read_excel('./sale.xlsx')[:1000]
+df_cum = pd.read_excel('./cum.xlsx')
+df_sale = pd.read_excel('./sale.xlsx')
 
 print("--------------会员卡cum表信息---------------")
 print("处理前：\n", df_cum.info())
